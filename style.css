@@ -50,8 +50,8 @@ p {
   padding-right:15px;           /* afstand tussen plaatje en rechterkolom */
 }
 .kolomRechts {
-  float:left;
-  width: 450px;
+  float:right;
+  width: 350px;
 }
 .kolomStop {
   clear:both;                   /* stop met floaten */
@@ -64,7 +64,7 @@ h1, h2, h3 {
 }
 html {
   min-height: 100%;
-  background-image:url(afbeeldingen/6f21aec5019f4cfea5277c44ddb1ecb7.png) ;
+  background-image:url(afbeeldingen/background.png) ;
   background-position: center;
   background-repeat:repeat ;
 }
@@ -95,6 +95,7 @@ nav ul {
     padding: 0;
     background-color: #ffffff;
     overflow: hidden;
+    border-radius: 8px;
 }
 
 nav ul li {
@@ -110,9 +111,33 @@ nav li a {
 }
 
 nav li a:hover {
+  border-radius: 8px;
     background-color: #ffffff;
 }
 
 nav li a.active {
     background-color: #919191;
+  border-radius: 8px;
+  
 }
+.kolomLinks{border-radius: 8px;
+
+           }
+.home-tekst-onder{
+  float:right;
+}
+
+.page-home {
+  width:900px;
+  margin:10px auto;
+}
+.home-tekst-boven {
+  margin-right:75px;
+  margin-top:30px;
+  width:650px;
+}
+
+.KolomMercedes {
+  float:right;
+  width: 350px;
+  margin-top: 50px;
