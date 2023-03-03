@@ -217,13 +217,27 @@ float: left;
 border: 7px double #ffffff;
 border-radius: 30px 30px 30px 30px;
   margin: 10px;
-  height: 280px;
-  
+  height: 240px;
 }
 .Amgklassetext{
 float: right;
   width: 500px;
   margin:20px;
   margin-right: 20px;
+ 
   
+}
+
+.OudeAuto{
+float: left;
+  width: 360px;
+  height: 300px;
+  margin-top:1px;
+  object-fit: contain;
+  margin-left: -38px;
+  -moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+transform: rotate(360deg);
 }
