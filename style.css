@@ -230,14 +230,30 @@ float: right;
 
 .OudeAuto{
 float: left;
-  width: 360px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   margin-top:1px;
   object-fit: contain;
-  margin-left: -38px;
-  -moz-transform: rotate(360deg);
--webkit-transform: rotate(360deg);
--o-transform: rotate(360deg);
--ms-transform: rotate(360deg);
-transform: rotate(360deg);
+}
+
+.OudeAuto2{
+  float: left;
+  width: 250px;
+  height: 200px;
+  object-fit: contain;
+ 
+}
+.OudeAutoText {
+float: right;
+  width: 400px;
+  margin:20px;
+  margin-right: 20px;
+  
+}
+.OudeAutoText2{
+  float: right;
+  width: 400px;
+  margin:20px;
+  margin-right: 20px;
+
 }
